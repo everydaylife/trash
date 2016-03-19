@@ -12,9 +12,6 @@ Same as all your other R packages: put it in your R library and call the package
 
    
 ## Examples
-*All examples assume you have already setup your api key!*
-
-Find artists that are similar to 'Bikini Kill':
 
 ```python
 > library(trash)
@@ -25,7 +22,3 @@ Find artists that are similar to 'Bikini Kill':
 > trash("Kentucky Wildcats")
 [1] "COME BACK WHEN YOUR NAME ISN'T PLASTERED ALL OVER A FRIED CHICKEN FRANCHISE."
 ```
-
-```
-
--![alt text](http://i.imgur.com/WWLYo.gif "Frustrated cat can't believe this is the 12th time he's clicked on an auto-linked README.md URL")

@@ -2,7 +2,7 @@
 
 trash() is an R package that generates trash talk for college basketball teams. Enter the name of the team you want to trash and you'll get a zinger back.
 
-The actual trash talk was taken from threads on www.reddit.com/r/collegebasketball trash talk threads. 
+The actual trash talk was taken from www.reddit.com/r/collegebasketball trash talk threads. 
 
 The function accepts a single argument: a string which is your sport's rival's name.
 

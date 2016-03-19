@@ -181,7 +181,7 @@ trash <- function(x) {
                    "DAMMIT WISCONSIN. PULLING YOUR `LET'S KEEP THE GAME TOTAL UNDER 120 110 100 90 80` GETS REALLY OLD.",
                    "WISCONSIN, YOU HIRED THE MAN THAT LED PITT TO 3 CONSECUTIVE 6-6 SEASONS IN FOOTBALL. I HOPE YOUR NEW BASKETBALL HIRE IS OF SIMILAR CALIBER.")
     
-    witchita <- c("HOW DOES IT FEEL TO BE PERMANENTLY ON THE CUSP OF REALIGNMENT RELEVANCE, JUST TO BE DENIED?",
+    wichita <- c("HOW DOES IT FEEL TO BE PERMANENTLY ON THE CUSP OF REALIGNMENT RELEVANCE, JUST TO BE DENIED?",
                   "YOUR TEAM IS NAMED AFTER SOMEONE WHO HARVESTS WHEAT. SOMEONE SAID, `BOY NEBRASKA SURE HAS A STUPID, BORING MASCOT. HOW CAN WE MAKE A WORSE ONE?`")
     
     
@@ -552,7 +552,7 @@ trash <- function(x) {
         result <- sample(wichita, size = 1)
     }
     else if (x=="Wichita State Shockers") {
-        result <- sample( wichita, size = 1)
+        result <- sample(wichita, size = 1)
     }
     else if (x=="Wichita State") {
         result <- sample(wichita, size = 1)

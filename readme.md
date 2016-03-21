@@ -14,7 +14,7 @@ In R, go to Packages -> Install Packages from Local Zip Files
 
 or
 
-In RStudio, go to Tools -> Install Packages.
+In RStudio, go to Tools -> Install Packages.  
 Change the drop down menu from Repository (CRAN, CRANextra) to "Package Archive File (zip).
 
    

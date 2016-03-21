@@ -8,7 +8,14 @@ The function accepts a single argument: a string which is your sport's rival's n
 
 
 ## Install
-Same as all your other R packages: put it in your R library and call the package.
+Download the file called trash_1.0.zip.
+
+In R, go to Packages -> Install Packages from Local Zip Files
+
+or
+
+In RStudio, go to Tools -> Install Packages.
+Change the drop down menu from Repository (CRAN, CRANextra) to "Package Archive File (zip).
 
    
 ## Examples

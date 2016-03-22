@@ -21,28 +21,36 @@ trash <- function(x) {
                "HARRY POTTER AND THE TRIPPING OF SPALDING",
                "ITS LIKE I'M WATCHING THE 3 STOOGES PLAY ABBOTT AND COSTELLO",
                "MY GRANDMA COULD PLAY BASKETBALL FASTER THAN YOU, MAY SHE REST IN PEACE.",
-               "IT'S LIKE A BASKETBALL TEAM PLAYING BASKETBALL AGAINST A SOCCER TEAM.")
+               "IT'S LIKE A BASKETBALL TEAM PLAYING BASKETBALL AGAINST A SOCCER TEAM.",
+               "I HEARD THEIR LIBRARY BURNED DOWN AND BOTH BOOKS WERE DESTROYED. IT`S A REAL SHAME BECAUSE THEY WERE ALMOST DONE COLORING IN THEM.",
+               "DID YOUR FLIGHT LEAVE EARLY, IT SEEMED THAT THE TEAM LEFT BEFORE THE GAME ENDED!",
+               "DON`T LET THE DOOR HIT YOU ON THE WAY OUT.",
+               "GO BACK IN YOUR ROOM THE ADULTS ARE TALKING SPORT.",
+               "WHEN DO YOU PLAY UNIVERSITY OF PHOENIX?")
     
     albany <- "HEY ALBANY...UH...HOW'S THE WEATHER? REALLY COLD? YEAH, TAKE THAT!"
     
     arizona <- c("ARIZONA HAS ALWAYS BEEN MY SECOND FAVORITE COLLEGE BASKETBALL TEAM.",
                  "IF YOU HAD AN EASIER SCHEDULE, IT'D HAVE TRAINING WHEELS.")
     
-    austin <- "COME DOWN TO AUSTIN FOR THE GAME. THERE ARE SURE TO BE PLENTY OF OPEN SEATS"
+    asheville <- "THE ONLY REASON PEOPLE KNOW WHO YOU ARE IS BECAUSE YOU HAD A 7`5` GUY ON YOUR TEAM A FEW YEARS BACK."
+    
+    austin <- "COME DOWN TO AUSTIN FOR THE GAME. THERE ARE SURE TO BE PLENTY OF OPEN SEATS."
     
     austinpeay <- c("AUSTIN PEAY ISN'T EVEN IN AUSTIN",
-                    "COME DOWN TO AUSTIN FOR THE GAME. THERE ARE SURE TO BE PLENTY OF OPEN SEATS")
+                    "COME DOWN TO AUSTIN FOR THE GAME. THERE ARE SURE TO BE PLENTY OF OPEN SEATS.")
     
-    austinrivers <- c("RIVERS HAS A SOUL. IT'S JUST FRACTURED INTO SEVEN PIECES AND ENTOMBED IN DIFFERENT OBJECTS.",
-                      "COME DOWN TO AUSTIN FOR THE GAME. THERE ARE SURE TO BE PLENTY OF OPEN SEATS")
+    austinrivers <- "COME DOWN TO AUSTIN FOR THE GAME. THERE ARE SURE TO BE PLENTY OF OPEN SEATS."
     
     boise <- "TOO BAD BOISE STATE DOESN'T HAVE KELLEN MOORE ANYMORE, OTHERWISE YOU'D HAVE A CHANCE TO WIN! WHAT'S THAT? KELLEN MOORE PLAYED FOOTBALL? EXACTLY."
     
     belmont <- "I DON'T EVEN KNOW WHERE YOUR COLLEGE IS BELMONT. TAKE THAT."
     
-    buffalo <- "MY FAVORITE TEAM IS NOT VERY GOOD AND WE DON'T REALLY HAVE RIVALS WHAT AM I SUPPOSED TO DO HERE"
+    buffalo <- "YOUR FAVORITE TEAM IS NOT VERY GOOD AND YOU DON'T REALLY HAVE RIVALS WHAT AM I SUPPOSED TO DO HERE"
     
-    cincinnati <- "10 YEARS AGO I WENT TO CINCINNATI FOR THE A-10 TOURNAMENT. IT WAS WORSE THAN BEING IN DAYTON."
+    cincinnati <- c("TEN YEARS AGO I WENT TO CINCINNATI FOR THE A10 TOURNAMENT. IT WAS WORSE THAN BEING IN DAYTON.",
+                    "BEATCATS? MORE LIKE BEARCAN`TS.",
+                    "HEY CINCINNATI YOUR CITY IS RIDDLED WITH CRIME, IS DIRTY, HAS AN INFERIOR BASKETBALL PROGRAM TO ANOTHER SCHOOL IN YOUR STATE, AND IS ALWAYS SHOWING UP ON 48 HOURS. OH WAIT NEVER MIND THAT`S LOUISVILLE.")
     
     dayton <- "TELL YOUR CHEERLEADERS TO STOP TAKING THEIR SUMMER ENGLISH CLASSES AT UNC. LOL IT'S COLOR CODED AND THEY STILL MESSED UP."
     
@@ -51,8 +59,10 @@ trash <- function(x) {
               "I PICKED DUKE TO LOSE THIS GAME ON ALL MY BRACKETS",
               "I'D RATHER BE THE FIRST ONE SEED TO LOSE TO A 16 THAN LOSE TO DUKE")
     
-    iowa <- c("NOT SO FUN LOSING AT HOME TO WISCONSIN, IS IT IOWA",
-              "WHY DOES THE CORN IN CHAMPAIGN BLOW EAST?! CUZ IOWA BLOWS!")   
+    iowa <- "WHY DOES THE CORN IN CHAMPAIGN BLOW EAST?! CUZ IOWA BLOWS!"  
+    
+    georgetown <- c("MANY YEARS AGO, WHEN ALL GEORGETOWN STUDENTS WERE REQUIRED TO STUDY GREEK AND LATIN, THE UNIVERSITY`S TEAMS WERE NICKNAMED THE STONEWALLS. IT IS SUGGESTED THAT A STUDENT, USING GREEK AND LATIN TERMS, STARTED THE CHEER `HOYA SAXA!`, WHICH TRANSLATES INTO `WHAT ROCKS!` THE NAME PROVED POPULAR AND THE TERM `HOYAS` WAS EVENTUALLY ADOPTED FOR ALL GEORGETOWN TEAMS. THAT WAS FROM GEORGETOWN`S WEBSITE. IT`S INTERESTING, BUT IT DOESN`T MAKE IT ANY LESS STUPID.",
+                    "HEY GEORGETOWN, YOU HAVE A BEAUTIFUL CAMPUS THAT I VISITED ONCE. SO DON`T FEEL TOO BAD WHEN WE SEND YOU BACK.")
     
     gonzaga <- c("BEST IN THE WEST? IS THAT LIKE BEING A MIDDLE SCHOOL PARTICIPATION WINNER?",
                  "THE BEST TEAM TO NEVER BEAT A BIG-TIME OPPONENT.",
@@ -61,14 +71,10 @@ trash <- function(x) {
     florida <- c("ROSES ARE RED VIOLETS ARE BLUE I'M NOT GREAT AT POEMS BUT SCREW THE GATORS",
                  "WHAT'S THE STATUTE OF LIMITATIONS ON FORCIBLE VIOLENCE IN THE STATE OF FLORIDA? ASKING FOR A FRIEND.")
     
-    illinois <- "IT'S CUTE HOW YOU GUYS STILL CAN'T ACCEPT THE FACT THAT BILL SELF LEFT YOU FOR A BETTER BASKETBALL PROGRAM."
+    illinois <- c("IT'S CUTE HOW YOU GUYS STILL CAN'T ACCEPT THE FACT THAT BILL SELF LEFT YOU FOR A BETTER BASKETBALL PROGRAM.",
+                "AT LEAST WE WEREN`T DUMB ENOUGH TO PUT OUR COLLEGE IN TWO DIFFERENT TOWNS.")
     
-    indiana <- c("INDIANA'S SO POOR, THEY CAN'T AFFORD TO PAY THEIR ELECTRIC BILL.",
-                 "INDIANA'S SO POOR, THEIR BIGGEST BOOSTER ONLY DONATED $185.",
-                 "INDIANA'S SO POOR, THEY CHEW THEIR GUM TWICE.",
-                 "INDIANA'S SO POOR, THEY HAVEN'T BOUGHT NEW UNIFORMS IN DECADES.",
-                 "WE'RE READY TO RUIN YOGI'S SENIOR NIGHT.",
-                 "YOU ARE A LIBERAL ARTS SCHOOL.",
+    indiana <- c("WE'RE READY TO RUIN YOGI'S SENIOR NIGHT.",
                  "INDIANA IS A BUNCH OF SOCCER PLAYING FLOPPERS",
                  "YOU GUYS MAKING `WE'RE BACK` SHIRTS AGAIN THIS YEAR?",
                  "ONLY INDIANA CAN WIN AND LOSE AT THE SAME TIME")
@@ -78,7 +84,8 @@ trash <- function(x) {
                 "KSU IS STILL WORKING ON THEIR PSA FOR FAN APPROPRIATE COMEBACKS FOR MASSIVE BURNS.",
                 "YOUR MOM WENT TO KANSAS.",
                 "Real talk: Do people from Kansas actually think living in Kansas is something someone not from Kansas would find remotely desirable? If I woke up tomorrow morning and I lived in Kansas, I'd probably hang myself.",
-                "BIRDS DON'T WEAR SHOES THAT'S JUST RIDICULOUS")
+                "BIRDS DON'T WEAR SHOES THAT'S JUST RIDICULOUS.",
+                "KANSAS FANS THINK THE AMERICAN VERSION OF TOP GEAR IS THE SUPERIOR VERSION OF THE SHOW.")
     
     kansasu <- c("IF BILL SELF WERENT YOUR HEAD COACH I WOULD HATE YOUR SCHOOL/TEAM MUCH MUCH MORE",
                  "KU IS ONE OF THE ONLY SCHOOLS WITH A HIGHER ACCEPTANCE RATE THAN WVU",
@@ -87,20 +94,26 @@ trash <- function(x) {
                  "DAWG THAT 89% ACCEPTANCE RATE MEANS YOU LOST THE RIGHT TO TALK SMACK ABOUT ACADEMICS FOREVER.",
                  "BILL SELF LOOKS LIKE DREW CAREY HAS LET HIMSELF GO.",
                  "CATS DON'T WEAR JERSEYS THAT'S JUST DUMB.",
-                 "Real talk: Do people from Kansas actually think living in Kansas is something someone not from Kansas would find remotely desirable? If I woke up tomorrow morning and I lived in Kansas, I'd probably hang myself.")
+                 "Real talk: Do people from Kansas actually think living in Kansas is something someone not from Kansas would find remotely desirable? If I woke up tomorrow morning and I lived in Kansas, I'd probably hang myself.",
+                 "KANSAS FANS THINK THE AMERICAN VERSION OF TOP GEAR IS THE SUPERIOR VERSION OF THE SHOW.",
+                 "9000 - TOTAL STUDENT ATTENDANCE IN KU FOOTBALL PROGRAM HISTORY.")
     
     kentucky <- c("KENTUCKY...KENTUCKY...?? BUELLER?",
                   "UNDERACHIEVEMENT IS A STATE TRADITION IN KENTUCKY RIGHT?",
                   "I WOULD MAKE FUN OF KENTUCKY BUT NOW IT'S LIKE KICKING BABIES. AT SOME POINT YOU JUST HAVE TO STOP FOR A BREATHER. A BREATHER LIKE THE ONE THEIR TOTALLY UNCOACHABLE PLAYERS HAVING BEEN TAKING ALL SEASON.",
                   "IN THE FIRST TIME IN THE HISTORY OF THE SCHOOL, KENTUCKY SUPPORTERS WERE MORE INTERESTED IN TALKING ABOUT FOOTBALL ONE MONTH INTO BASKETBALL SEASON.",
                   "COME BACK WHEN YOUR NAME ISN'T PLASTERED ALL OVER A FRIED CHICKEN FRANCHISE.",
-                  "YOU HAVE NO MAJOR CITIES, NO INTERESTING GEOGRAPHIC FEATURES, AND ZERO CULTURAL IMPORTANCE. HAVE FUN FARMING WHEAT.")
+                  "YOU HAVE NO MAJOR CITIES, NO INTERESTING GEOGRAPHIC FEATURES, AND ZERO CULTURAL IMPORTANCE. HAVE FUN FARMING WHEAT.",
+                  "MONSTERS U HAS A HIGHER GRADUATION RATE THAN KENTUCKY.")
     
     lsu <- c("REMEMBER WHEN BEN SIMMONS HIT THAT FREE THROW? ME NEITHER!",
              "BEN SIMMONS IS SO GREAT THAT HE SCORED 4 POINTS IN A GAME THAT WENT TO OVERTIME AGAINST THE 13TH BEST TEAM IN THE ACC.")
     
     louisville <- c("LOUISVILLE - ULOU? MORE LIKE ULOSE, AMIRITE?",
-                    "I AM SURE THERE ARE SOME GOOD SHOWS ON NETFLIX OVER THE NEXT MONTH!")
+                    "I AM SURE THERE ARE SOME GOOD SHOWS ON NETFLIX OVER THE NEXT MONTH!",
+                    "LOUISVILLE`S COACH LOOKS LIKE AL PACINO AND HE`S A CRAZY PERSON I MEAN HAVE YOU SEEN DEVIL'S ADVOCATE.",
+                    "LOUISVILLE MORE LIKE EWWW-IVILLE AM I RIGHT?",
+                    "YOUR MASCOT IS LIKE THE ANGRY BIRDS` SAD, USELESS COUSIN, AND A KINDERGARTNER PLAYING THAT GAME HAS BETTER`S NAME IS AN INDICATION OF HOW MANY POINTS YOU`LL SCORE AGAINST US.")
     
     marquette <- "WE ARE PRETTY GOOD YET NOT GOOD ENOUGH FOR PEOPLE TO REALLY HATE US. OUR BIGGEST RIVALRY IS WITH WISCONSIN BUT THEY DON'T KNOW IT BECAUSE THEY HAVE BIGGER RIVALRIES WITH MINNESOTA AND ILLINOIS. WAIT, I AM DOING THIS WRONG>>>>>"
     
@@ -123,7 +136,8 @@ trash <- function(x) {
                    ALSO YOU GUYS ARE POOP",
                    "WHAT DO A MSU AND A MICHIGAN GRAD HAVE IN COMMON? THEY BOTH GOT ACCEPTED TO STATE.",
                    "IF YOU CAN'T GO TO COLLEGE GO TO STATE",
-                   "YOUR BOYS MADE A FANTASTIC OPENING ARGUMENT FOR THEIR ADMISSION INTO THE SCHOOLS BETTER THAN NORTHWESTERN AT BASKETBALL CONFERENCE")
+                   "YOUR BOYS MADE A FANTASTIC OPENING ARGUMENT FOR THEIR ADMISSION INTO THE SCHOOLS BETTER THAN NORTHWESTERN AT BASKETBALL CONFERENCE,",
+                   "TOM IZZO LOOKS LIKE JIMMY HOFFA IF HE WORKED AT A DONUT FACTORY.")
     
     michiganu <- c("REGULAR MICHIGAN MAKING THE TOURNAMENT COUNTERACTIVELY VALIDATES AND ULTIMATELY ELONGATES THE TENURE OF BEILEIN, WHO THEREFORE WON'T MAKE ANY NECESSARY CHANGES TO HIS PROGRAM AND WILL REMAIN MIDDLING FOR YEARS TO COME.",
                    "WHAT DO A MSU AND A MICHIGAN GRAD HAVE IN COMMON? THEY BOTH GOT ACCEPTED TO STATE.",
@@ -133,26 +147,39 @@ trash <- function(x) {
                    "MINNESOTA BASKETBALL IS SO BAD THEY ONLY HAVE THE ONE GROUPIE",
                    "BEATING MINNESOTA SHOULD NEVER BE CONSIDERED AN UPSET.")
     
-    missouri <- "O IF YOU THOUGHT MISSISSIPPI STATE WAS BAD LOOK OUT FOR MISSOURI"
+    missouri <- "O IF YOU THOUGHT MISSISSIPPI STATE WAS BAD LOOK OUT FOR MISSOURI."
     
-    notredame <- "NOTRE LAME."
+    nebraska <- "NEBRASKETBALL? MORE LIKE NEBADSKETBALL."
+    
+    notredame <- c("NOTRE LAME.",
+                   "HANG YOUR HEADS IN NOTRE SHAME.",
+                   "THEY MAY NEVER ACHIEVE NOTRE FAME.",
+                   "THEY MISSED ALL THEIR SHOTS BECAUSE THEY CAN`T NOTRE AIM.")
     
     northwestern <- c("HOW MANY MORE YEARS UNTIL NORTHWESTERN FINALLY MAKES THE TOURNAMENT?",
-                      "HOW DOES A NWU FAN SPELL DISAPPOINTMENT? `E-X-P-E-C-T-A-T-I-O-N-S.`")
+                      "HOW DOES A NWU FAN SPELL DISAPPOINTMENT? `E-X-P-E-C-T-A-T-I-O-N-S.`",
+                      "LOL LIKE NORTHWESTERN WOULD EVER BEAT A BIG TEN TEAM ON THEIR HOME FLOOR RIGHT GUYS?")
     
     oklahoma <- "BILLY DONOVAN HAS STUPID HAIR."
     
+    ohio <- "THANKS WIKIPEDIA FOR LETTING ME KNOW THAT PEOPLE IN OHIO THINK THEY CAN PLAY BASKETBALL."
+    
     pitt <- c("THIS GAME IS GOING TO MORE DISAPPOINTING FOR PITT THAN THEIR 2012, 2013, AND 2014 FOOTBALL SEASONS.",
-              "PITT DIDN'T ACTUALLY DO ANYTHING WRONG, THEIR BAN IS SELF-IMPOSED. BECAUSE THEY'RE TERRIBLE.")
+              "PITT DIDN'T ACTUALLY DO ANYTHING WRONG, THEIR BAN IS SELF-IMPOSED. BECAUSE THEY'RE TERRIBLE.",
+              "INSERT ARM-PITT JOKE HERE.")
     
     purdue <- c("HOW OLD WHERE YOU WHEN PURDUE WON A CHAMPI... OH WAIT THEY HAVENT. BOILER DOWN.",
-                "HA HA PURDUE. THAT IS ALL.")
+                "HA HA PURDUE. THAT IS ALL.",
+                "THE BOILERMAKERS IS A STUPID TEAM NAME. IT`S ODDLY SPECIFIC AND DOESN`T INSTILL A SENSE OF FEAR AT ALL.")
     
     southcarolina <- "THE ONLY THING SALTIER THAN SOUTH CAROLINA'S FANBASE IS THEIR FANBASE'S DIET."
     
-    syracuse <- "HEY SYRACUSE I JUST WANT YOU TO KNOW THAT I LITERALLY EAT YOUR MASCOT FOR BREAKFAST. I ALSO DRINK ITS BLOOD FOR SUSTENANCE. I'M A TINY LITTLE GIRL. "
+    syracuse <- c("HEY SYRACUSE I JUST WANT YOU TO KNOW THAT I LITERALLY EAT YOUR MASCOT FOR BREAKFAST. I ALSO DRINK ITS BLOOD FOR SUSTENANCE. I'M A TINY LITTLE GIRL.",
+                "SYRACUSE IS YOUR MASCOT A COLOR OR A FRUIT?")
     
-    texasam <- "I CAN'T SLAM TEXAS A&M BECAUSE I'D LIKELY GET A TECHNICAL DEGREE"
+    texasam <- "I CAN'T SLAM TEXAS A&M BECAUSE I'D LIKELY GET A TECHNICAL DEGREE."
+    
+    texas <- "ONLY TWO THINGS COME FROM TEXAS: STEERS AND TEAMS THAT CAN'T STOP MELVIN EJIM."
     
     unc <- c("IF YOU LOOK UP `UNDERPERFORMING` IN THE DICTIONARY IT SHOWS A PICTURE LABELED `UNC BASKETBALL 2010 - CURRENT`.",
              "HAVE MILK CARTONS WITH MARCUS PAIGE'S FACE COME OUT YET?",
@@ -166,7 +193,10 @@ trash <- function(x) {
              "WEATHER REPORT: 100% CHANCE THAT CAROLINA GOES TO HELL THIS WEEK",
              "BY THE TIME YOU FINISH READING THIS POST, YOU'LL BE HALFWAY TO AN ENGLISH DEGREE AT NORTH CAROLINA.",
              "WELL I'LL BE DAMNED. HERE'S YOUR UNC DEGREE IN...WELL SHOOT SHOULDN'T HAVE LET THE OTHER UNC GRADS TYPE IT UP, BUT HERE IT IS...A DEGREE FROM UNC IN... `MAFMATICTACS`.",
-             "I TOOK AN ONLINE CLASS FROM UNC AND GOT AN A+ USING MY FLIP PHONE.")
+             "I TOOK AN ONLINE CLASS FROM UNC AND GOT AN A+ USING MY FLIP PHONE.",
+             "ROY WILLIAMS NEVER REWINDS HIS VHS TAPES BEFORE RETURNING THEM!",
+             "WHY WOULD ANYONE LIVE IN CHAPEL HILL? YOU DON`T EVEN HAVE A BOJANGLES. OR COOKOUT.",
+             "SERIOUSLY THOUGH TARHEELS? THATS THE LEAST INTIMIDATING MASCOT I'VE EVER HEARD OF, AND THAT`S EVEN COMPARED TO OHIO. A NUT IS SCARIER THAN YOU.")
     
     villanova <- "ANY BIG 12 TEAM WOULD BE #1 IN THE NATION IF THEY GOT TO PLAY VILLANOVA'S SCHEDULE."
     
@@ -179,11 +209,16 @@ trash <- function(x) {
     wisconsin <- c("I HOPE Y'ALL LIKE SCORING FEWER THAN 50 POINTS IN A GAME.",
                    "WISCONSIN YOU SUCK BUT NIGEL HAYES IS A NICE PERSON.",
                    "DAMMIT WISCONSIN. PULLING YOUR `LET'S KEEP THE GAME TOTAL UNDER 120 110 100 90 80` GETS REALLY OLD.",
-                   "WISCONSIN, YOU HIRED THE MAN THAT LED PITT TO 3 CONSECUTIVE 6-6 SEASONS IN FOOTBALL. I HOPE YOUR NEW BASKETBALL HIRE IS OF SIMILAR CALIBER.")
+                   "WISCONSIN, YOU HIRED THE MAN THAT LED PITT TO 3 CONSECUTIVE 6-6 SEASONS IN FOOTBALL. I HOPE YOUR NEW BASKETBALL HIRE IS OF SIMILAR CALIBER.",
+                   "YOUR CHAMPIONSHIP IS OLD ENOUGH TO HAVE DEMENTIA.",
+                   "BADGERS ARE JUST GLORIFIED SKUNKS.")
     
     wichita <- c("HOW DOES IT FEEL TO BE PERMANENTLY ON THE CUSP OF REALIGNMENT RELEVANCE, JUST TO BE DENIED?",
-                  "YOUR TEAM IS NAMED AFTER SOMEONE WHO HARVESTS WHEAT. SOMEONE SAID, `BOY NEBRASKA SURE HAS A STUPID, BORING MASCOT. HOW CAN WE MAKE A WORSE ONE?`")
+                  "YOUR TEAM IS NAMED AFTER SOMEONE WHO HARVESTS WHEAT. SOMEONE SAID, `BOY NEBRASKA SURE HAS A STUPID, BORING MASCOT. HOW CAN WE MAKE A WORSE ONE?`",
+                 "MONSTERS U HAS A HIGHER SOS THAN WICHITA STATE.")
     
+    xavier <- c("I BET YOU SEE SPIKEs ON GOOGLE TRENDS BECAUSE EVERYONE IS LIKE `WHO ARE THESE CLOWNS AND WHERE IS XAVIER?",
+                "I WISH SOMEONE WOULD TRASH TALK XAVIER BUT REALLY, THAT WOULD REQUIRE PEOPLE TO ACTUALLY KNOW ABOUT XAVIER.")
     
     if (x=="Albany") {
         result <- albany
@@ -208,6 +243,15 @@ trash <- function(x) {
     }
     else if (x=="Arizona State") {
         result <- sample(arizona, size = 1)
+    }
+    else if (x=="Asheville") {
+        result <- sample(asheville, size = 1)
+    }
+    else if (x=="Asheville Bulldogs") {
+        result <- sample(asheville, size = 1)
+    }
+    else if (x=="UNC Asheville") {
+        result <- sample(asheville, size = 1)
     }
     else if (x=="Austin Peay") {
         result <- sample(austinpeay, size = 1)
@@ -286,6 +330,15 @@ trash <- function(x) {
     }
     else if (x=="Iowa Hawkeyes") {
         result <- sample(iowa, size = 1)
+    }
+    else if (x=="Georgetown") {
+        result <- sample(georgetown, size = 1)
+    }
+    else if (x=="Georgetown Hoyas") {
+        result <- sample(georgetown, size = 1)
+    }
+    else if (x=="Georgetown University") {
+        result <- sample(georgetown, size = 1)
     }
     else if (x=="Gonzaga") {
         result <- sample(gonzaga, size = 1)
@@ -428,6 +481,15 @@ trash <- function(x) {
     else if (x=="University of Missouri") {
         result <- sample(missouri, size = 1)
     }
+    else if (x=="Nebraska") {
+        result <- sample(nebraska, size = 1)
+    }
+    else if (x=="Nebraska Cornhuskers") {
+        result <- sample(nebraska, size = 1)
+    }
+    else if (x=="University of Nebraska") {
+        result <- sample(nebraska, size = 1)
+    }
     else if (x=="Notre Dame") {
         result <- sample(notredame, size = 1)
     }
@@ -445,6 +507,15 @@ trash <- function(x) {
     }
     else if (x=="Northwestern Wildcats") {
         result <- sample(northwestern, size = 1)
+    }
+    else if (x=="Ohio") {
+        result <- sample(ohio, size = 1)
+    }
+    else if (x=="Ohio Bobcats") {
+        result <- sample(ohio, size = 1)
+    }
+    else if (x=="Ohio University") {
+        result <- sample(ohio, size = 1)
     }
     else if (x=="Oklahoma") {
         result <- sample(oklahoma, size = 1)
@@ -485,7 +556,7 @@ trash <- function(x) {
     else if (x=="Syracuse") {
         result <- sample(syracuse, size = 1)
     }
-    else if (x=="Syracuse ") {
+    else if (x=="syracuse ") {
         result <- sample(syracuse, size = 1)
     }
     else if (x=="Syracuse Orange") {
@@ -494,8 +565,23 @@ trash <- function(x) {
     else if (x=="Syracuse University") {
         result <- sample(syracuse, size = 1)
     }
+    else if (x=="Texas A&M Aggies") {
+        result <- sample(texasam, size = 1)
+    }
+    else if (x=="Aggies") {
+        result <- sample(texasam, size = 1)
+    }
     else if (x=="Texas A&M") {
         result <- sample(texasam, size = 1)
+    }
+    else if (x=="Texas") {
+        result <- sample(texas, size = 1)
+    }
+    else if (x=="Texas Longhorns") {
+        result <- sample(texas, size = 1)
+    }
+    else if (x=="University of Texas") {
+        result <- sample(texas, size = 1)
     }
     else if (x=="UNC") {
         result <- sample(unc, size = 1)
@@ -504,6 +590,9 @@ trash <- function(x) {
         result <- sample(unc, size = 1)
     }
     else if (x=="North Carolina Tar Heels") {
+        result <- sample(unc, size = 1)
+    }
+    else if (x=="Tar Heels") {
         result <- sample(unc, size = 1)
     }
     else if (x=="Villanova") {
@@ -517,6 +606,9 @@ trash <- function(x) {
     }
     else if (x=="Villanova University") {
         result <- sample(villanova, size = 1)
+    }
+    else if (x=="Cavaliers") {
+        result <- sample(virginia, size = 1)
     }
     else if (x=="Virginia Cavaliers") {
         result <- sample(virginia, size = 1)
@@ -556,6 +648,15 @@ trash <- function(x) {
     }
     else if (x=="Wichita State") {
         result <- sample(wichita, size = 1)
+    }
+    else if (x=="Xavier") {
+        result <- sample(xavier, size = 1)
+    }
+    else if (x=="Xavier Muskateers") {
+        result <- sample(xavier, size = 1)
+    }
+    else if (x=="Xavier University") {
+        result <- sample(xavier, size = 1)
     }        
     else {
         result <- sample(basic, size = 1)

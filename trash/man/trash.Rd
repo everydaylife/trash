@@ -7,7 +7,7 @@
 trash(x)
 }
 \arguments{
-\item{x}{A string of any length describing the team you wanto to trash.}
+\item{x}{A string of any length describing the team you want to trash.}
 }
 \value{
 A string containing a trash talk one liner.

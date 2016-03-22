@@ -1,6 +1,6 @@
 #' March Madness Trash Talk Generator
 #' 
-#' @param x A string of any length describing the team you wanto to trash.
+#' @param x A string of any length describing the team you want to trash.
 #' @return A string containing a trash talk one liner.
 #' @export
 

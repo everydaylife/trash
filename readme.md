@@ -22,10 +22,13 @@ Change the drop down menu from Repository (CRAN, CRANextra) to "Package Archive 
 
 ```python
 > library(trash)  
+
 > trash("MSU")
 [1] "WHAT DO A MSU AND A MICHIGAN GRAD HAVE IN COMMON? THEY BOTH GOT ACCEPTED TO STATE."  
+
 > trash("Gonzaga")
 [1] "BEST IN THE WEST? IS THAT LIKE BEING A MIDDLE SCHOOL PARTICIPATION WINNER?  
+
 > trash("Kentucky Wildcats")
 [1] "COME BACK WHEN YOUR NAME ISN'T PLASTERED ALL OVER A FRIED CHICKEN FRANCHISE."
 ```
